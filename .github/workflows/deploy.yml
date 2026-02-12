@@ -31,3 +31,4 @@ jobs:
           external_repository: jo-yie/jo-yie.github.io
           publish_dir: ./dist
           publish_branch: main
+          cname: joyie.cc
