@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="space-y-6">
       <h1 className="text-4xl font-semibold">
-        Hi, I'm Jo Yie.
+        Hi, I'm Jo Yie. Test
       </h1>
 
       <p className="text-lg text-gray-600 leading-relaxed">
