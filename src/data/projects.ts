@@ -9,6 +9,7 @@ export const projects = [
       "Designed with David Ng & Ivan Tan"
     ],
     content: [
+      { type: "image", src: "/media/projects/kinesis/kinesis_video_1.gif" },
       { type: "text", value: "A reimagination of the donation experience inspired by the magic of telekinesis." },
       { type: "image", src: "/media/projects/kinesis/kinesis_1.png" },
       { type: "image", src: "/media/projects/kinesis/kinesis_2.png" },
