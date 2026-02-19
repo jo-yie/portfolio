@@ -9,8 +9,11 @@ export const projects = [
       "Designed with David Ng & Ivan Tan"
     ],
     content: [
-      { type: "image", src: "/media/projects/kinesis/kinesis_video_1.gif" },
       { type: "text", value: "A reimagination of the donation experience inspired by the magic of telekinesis." },
+      { type: "image", src: "/media/projects/kinesis/kinesis_video_1.gif" },
+      { type: "title", value: "I. The Problem" },
+      { type: "text", value: "In an increasingly cashless world, donation boxes are overlooked and charities miss out on vital contributions. Moreover, digital transactions disappears without feedback, visibility or emotional resonance. How might we tangibilise the seperation between donor and beneficiary?" },
+      { type: "image", src: "/media/projects/kinesis/kinesis_5.png" },
       { type: "image", src: "/media/projects/kinesis/kinesis_1.png" },
       { type: "image", src: "/media/projects/kinesis/kinesis_2.png" },
       { type: "image", src: "/media/projects/kinesis/kinesis_3.png" },

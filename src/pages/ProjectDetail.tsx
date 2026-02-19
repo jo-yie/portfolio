@@ -23,6 +23,7 @@ export default function ProjectDetail() {
       <div className="space-y-4 mt-4">
         {project.content?.map((block, i) => {
           if (block.type === "text") return <p key={i} className="text-gray-700">{block.value}</p>;
+          if (block.type === "title") return <h2 key={i} className="text-2xl font-semibold">{block.value}</h2>;
           if (block.type === "image") return <img key={i} src={block.src} className="rounded shadow" />;
           if (block.type === "video") return (
             <iframe
