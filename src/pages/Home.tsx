@@ -7,6 +7,7 @@ export default function Home() {
         Hi, I'm Jo Yie.
       </h1>
 
+      <br />
       <p className="text-lg text-gray-600 leading-relaxed">
         <b className="text-joyie-secondary">Industrial designer</b> and <b className="text-joyie-secondary">full-stack software engineer</b> specialised in interaction design and user-centred development. Expertise in physical computing, digital interfaces, and socially-informed user research.
       </p>
