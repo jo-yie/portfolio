@@ -5,7 +5,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen bg-white text-gray-900">
       <nav className="flex justify-between items-center px-8 py-6">
         <Link to="/" className="text-lg font-semibold">
-          <img src="media/logo.png" alt="logo" width="80px" className="animate-spin [animation-duration:5s]" />
+          <img src="/media/logo.png" alt="logo" width="80px" className="animate-spin [animation-duration:5s]" />
         </Link>
         <Link to="/projects" className="text-sm hover:underline">
           Projects
