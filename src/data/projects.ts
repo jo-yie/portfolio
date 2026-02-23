@@ -50,7 +50,7 @@ export const projects = [
       },
       {
         type: "title",
-        value: "This project explores and demonstrates how physical presence and digital transaction could seamlessly integrate to create a completely new donation experience that neither modality could achieve independently."
+        value: "Meet Kinesis: An exploration and demonstration of how physical presence and digital transaction could seamlessly integrate to create a new donation experience that neither modality could achieve independently."
       },
       { type: "video", src: "https://player.vimeo.com/video/643354890?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" },
     ]
@@ -127,9 +127,52 @@ export const projects = [
     ],
     content: [
       { type: "text", value: "Modular knitwear pieces to combat fast fashion practices." },
-      { type: "image", src: "/media/projects/unravel/unravel_1.png" },
-      { type: "image", src: "/media/projects/unravel/unravel_2.png" },
-      { type: "image", src: "/media/projects/unravel/unravel_3.png" },
+      { type: "image", src: "/media/projects/unravel/unravel_video_10.gif" },
+      {
+        type: "text",
+        value: "This exploration started by examining the verb ‘unravel’ and the traditionally irreversible act of a cloth or fabric becoming undone into threads. We were intrigued by whether unravelling could become a reversible process, leading us to pose the question:"
+      }, 
+      {
+        type: "title",
+        value: "What if unravelling could be both a destructive and generative act? One that allows garments to be disassembled and reassembled without loss?"
+      }, 
+      { type: "image", src: "/media/projects/unravel/material_1.png" },
+      {
+        type: "text",
+        value: "Through prototyping, we explored knitting as a versatile medium due to its range of textures, colours, and fibre compositions."
+      },
+      { type: "image", src: "/media/projects/unravel/material_2.png" },
+      {
+        type: "text",
+        value: "We identified a technique known as partial knitting, where only a portion of stitches continue to form upon a row, forming dimensional loops on the knit surface."
+      },
+      { type: "image", src: "/media/projects/unravel/unravel_video_4.gif"},
+      {
+        type: "text",
+        value: "Extending this technique beyond texture-making allowed us to reimagine the loops as functional connectors. Individual knitted modules could be joined by weaving loops together using a knit-like interlocking method."
+      },
+      { type: "image", src: "/media/projects/unravel/unravel_video_5.gif" },
+      {
+        type: "text",
+        value: "To secure the connection, we designed a U-shaped 3D-printed closure that acts as a detachable button. The closure allows loops to be sealed or released at any point, enabling reversible assembly and disassembly."
+      },
+      { type: "image", src: "/media/projects/unravel/unravel_video_6.gif" },
+      { type: "image", src: "/media/projects/unravel/unravel_video_7.gif" },
+      {
+        type: "text",
+        value: "The modularity of the system enables multiple garments to be constructed from a limited set of knitted components."
+      },
+      { type: "image", src: "/media/projects/unravel/unravel_video_2.gif" },
+      { type: "image", src: "/media/projects/unravel/unravel_video_3.gif" },
+      {
+        type: "text",
+        value: "Instead of owning many different pieces of clothing, users can recombine modules in different colours and configurations, expanding wardrobe possibilities while reducing material consumption. This system challenges fast-fashion’s disposability and encourages a sense of play and active engagement with one’s garments."
+      },
+      { type: "image", src: "/media/projects/unravel/unravel_video_9.gif" },
+      {
+        type: "title",
+        value: "Meet Unravel: A sustainable modular fashion system that allows endless creativity and modularities within one’s wardrobe."
+      },
       { type: "video", src: "https://player.vimeo.com/video/963718035?title=0&byline=0&portrait=0&color=ab9&autopause=0&api=1&app_id=122963" },
     ]
   }, 
