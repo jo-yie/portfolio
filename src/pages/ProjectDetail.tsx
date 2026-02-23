@@ -22,8 +22,8 @@ export default function ProjectDetail() {
       {/* Content Blocks */}
       <div className="space-y-4 mt-4">
         {project.content?.map((block, i) => {
-          if (block.type === "text") return <><br /><p key={i} className="text-gray-700">{block.value}</p></>;
-          if (block.type === "title") return <><br /><h2 key={i} className="text-xl font-light italic">{block.value}</h2></>;
+          if (block.type === "text") return <><p key={i} className="text-gray-700">{block.value}</p><br /></>;
+          if (block.type === "title") return <><h2 key={i} className="text-xl font-light italic">{block.value}</h2><br /></>;
           if (block.type === "image") return <img key={i} src={block.src} className="rounded shadow" />;
           if (block.type === "video") return (
             <iframe
