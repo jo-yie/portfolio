@@ -24,7 +24,7 @@ export default function ProjectDetail() {
         {project.content?.map((block, i) => {
           if (block.type === "text") return <><p key={i} className="text-gray-700">{block.value}</p><br /></>;
           if (block.type === "title") return <><h2 key={i} className="text-xl font-light italic">{block.value}</h2><br /></>;
-          if (block.type === "image") return <img key={i} src={block.src} className="rounded shadow" />;
+          if (block.type === "image") return <img key={i} src={block.src} className="rounded shadow w-full object-cover" style={{ minWidth: '100%' }} />;
           if (block.type === "video") return (
             <iframe
               key={i}
