@@ -52,7 +52,7 @@ export const projects = [
         type: "title",
         value: "Meet Kinesis: An exploration and demonstration of how physical presence and digital transaction could seamlessly integrate to create a new donation experience that neither modality could achieve independently."
       },
-      { type: "video", src: "https://player.vimeo.com/video/643354890?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" },
+      { type: "video", src: "https://player.vimeo.com/video/643354890?title=0&byline=0&portrait=0&color=ab9&autopause=0&api=1&app_id=58479" },
     ]
   },
   {
@@ -179,20 +179,46 @@ export const projects = [
   {
     title: "Crash", 
     slug: "crash", 
-    excerpt: "A creative coding project.", 
+    excerpt: "A classic arcade-style car game built with p5.js and micro:bit.", 
     info: [
-      "National University of Singapore (2021)",
+      "National University of Singapore (2022)",
       "Under the guidance of Clement Zheng", 
       "Designed with Merkayla Wong"
     ], 
     content: [
+      { type: "text", value: "A classic arcade-style car game built with p5.js and micro:bit." },
+      { type: "image", src: "/media/projects/crash/crash_video_1.gif" },
+      {
+        type: "text",
+        value: "This project seeked to combine physical computing (sensors and a micro:bit microcontroller) with programming (p5.js) to build a playable game. "
+      },
+      { type: "image", src: "/media/projects/crash/crash_video_2.gif" },
+      {
+        type: "text",
+        value: "We built out a keyboard-playable game with p5.js that had the player’s car and obstacles (cars and cows alike) to overcome. We applied the collision logic, an endless background that continuously moves faster to increase difficulty, randomly generated obstacles, and programmed user input."
+      },
+      { type: "image", src: "/media/projects/crash/crash_video_3.gif" },
+      { type: "text",
+        value: "Importing out pixel art assets into p5.js then gave the game it's final look and feel."
+      }, 
+      { type: "image", src: "/media/projects/crash/crash_video_4.gif" },
       { 
-        type: "video", 
-        src: "https://player.vimeo.com/video/679190666?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        type: "text",
+        value: "We used a second-hand Nintendo steering wheel fitted with a micro:bit and a pressure sensor to ask as a horn to scare away cows. We used the built in accelerometer on the micro:bit to gauge whether the steering wheel was being turned left or right."
       },
       {
+        type: "title",
+        value: "Meet Crash: a fully playable arcade-style car game that bridges physical and digital means to enhance a player’s experience."
+      },
+      { type: "title", value: "How it Works:" },
+      {
         type: "video",
-        src: "https://player.vimeo.com/video/679171412?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        src: "https://player.vimeo.com/video/679171412?title=0&byline=0&portrait=0&color=ab9&autopause=0&api=1&app_id=58479"
+      },
+      { type: "title", value: "How People Play:" },
+      { 
+        type: "video", 
+        src: "https://player.vimeo.com/video/679190666?title=0&byline=0&portrait=0&color=ab9&autopause=0&api=1&app_id=58479"
       }
     ]
   }
