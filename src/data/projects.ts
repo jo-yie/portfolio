@@ -60,16 +60,59 @@ export const projects = [
     slug: "poco",
     excerpt: "An instrument for pregnant mothers to create lullabies for their baby through movement.",
     info: [
-      "National University of Singapore (2021)",
+      "National University of Singapore (2022)",
       "Under the guidance of Christophe Gaubert",
       "Designed with Chan Shao Kaye and Chelsea Angelina"
     ],
     content: [
-      { type: "text", value: "An instrument for pregnant mothers to create lullabies for their baby through movement." },
-      { type: "image", src: "/media/projects/poco/poco_1.png" },
-      { type: "image", src: "/media/projects/poco/poco_2.png" },
-      { type: "image", src: "/media/projects/poco/poco_3.png" },
-      { type: "image", src: "/media/projects/poco/poco_4.png" },
+      { 
+        type: "text", 
+        value: "An instrument for pregnant mothers to create lullabies for their baby through movement." 
+      },
+      { type: "image", src: "/media/projects/poco/poco_video_1.gif" },
+      {
+        type: "text",
+        value: "Prenatal bonding is fundamental to postnatal development for infants and toddlers. Despite this, many new mothers struggle to bond with their child during pregnancy."
+      },
+      { 
+        type: "image", 
+        src: "/media/projects/poco/research_1.png", 
+        caption: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12647035/, https://pmc.ncbi.nlm.nih.gov/articles/PMC7854426/" 
+      },
+      {
+        type: "text",
+        value: "With music being a researched-backed method for maternal-infant bonding, we posed the following questions:"
+      },
+      {
+        type: "title",
+        value: "1. What if mothers could create music through movement for their unborn child as a way to bond during pregnancy?"
+      },
+      {
+        type: "title",
+        value: "2. And what if these familiar sounds could be brought back after birth as a source of comfort and emotional support for the child’s development?"
+      },
+      { type: "image", src: "/media/projects/poco/poco_video_2.gif" },
+      {
+        type: "text",
+        value: "We designed a piece of wearable technology infused with bend and force sensors that trigger individual notes to be played. As a mother bends, stretches, and rubs her belly, her movement creates unique melodies that are played to her fetus through inbuilt speakers."
+      },
+      { type: "image", src: "/media/projects/poco/poco_video_3.gif" },
+      { type: "image", src: "/media/projects/poco/poco_video_4.gif" },
+      {
+        type: "text",
+        value: "The garment can then be detached to make a sort of baby blanket for the newborn to play with."
+      },
+      { type: "image", src: "/media/projects/poco/poco_video_5.gif" },
+      { type: "image", src: "/media/projects/poco/poco_video_6.gif" },
+      { type: "image", src: "/media/projects/poco/poco_video_7.gif" },
+      {
+        type: "text",
+        value: "After birth, the familiar lullabies that were once heard in the womb are brought alive by the baby’s movement. The transitional object helps a baby to gain independence and ease the physical separation from the mother’s womb."
+      },
+      {
+        type: "title",
+        value: "Meet Poco: a wearable musical instrument that transforms a mother’s movement into lullabies, fostering prenatal bonding and supporting a child’s development after birth."
+      },
       { type: "video", src: "https://player.vimeo.com/video/769700338?title=0&byline=0&portrait=0&color=3cd&autopause=0&api=1&app_id=122963" },
     ]
   },
@@ -88,6 +131,26 @@ export const projects = [
       { type: "image", src: "/media/projects/unravel/unravel_2.png" },
       { type: "image", src: "/media/projects/unravel/unravel_3.png" },
       { type: "video", src: "https://player.vimeo.com/video/963718035?title=0&byline=0&portrait=0&color=ab9&autopause=0&api=1&app_id=122963" },
+    ]
+  }, 
+  {
+    title: "Crash", 
+    slug: "crash", 
+    excerpt: "A creative coding project.", 
+    info: [
+      "National University of Singapore (2021)",
+      "Under the guidance of Clement Zheng", 
+      "Designed with Merkayla Wong"
+    ], 
+    content: [
+      { 
+        type: "video", 
+        src: "https://player.vimeo.com/video/679190666?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      },
+      {
+        type: "video",
+        src: "https://player.vimeo.com/video/679171412?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      }
     ]
   }
 ]
