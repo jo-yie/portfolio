@@ -3,6 +3,7 @@ import Layout from "./components/Layout"
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 import ProjectDetail from "./pages/ProjectDetail"
+import HDBTilePage from "./pages/void-deck/HDBTilePage"
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:slug" element={<ProjectDetail />} />
+        <Route path="/void-deck" element={<HDBTilePage />} />
       </Routes>
     </Layout>
   )

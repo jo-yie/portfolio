@@ -10,8 +10,10 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
+    "konva": "^10.2.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-konva": "^19.2.3",
     "react-router-dom": "^7.13.0"
   },
   "devDependencies": {
